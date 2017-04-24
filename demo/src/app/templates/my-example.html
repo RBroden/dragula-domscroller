@@ -1,0 +1,8 @@
+<p>{{count}}</p>
+<div class='my-container custom-dragula-container' #myContainer>
+    <div class='wrapper'>
+        <div class='container' [dragula]='"my-bag"'>
+            <div *ngFor="let i of data">Item {{i}}</div>
+        </div>
+    </div>
+</div>

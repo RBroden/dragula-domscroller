@@ -1,0 +1,8 @@
+.my-container {
+    background: #ff0;
+}
+
+.custom-dragula-container {
+    overflow-y: scroll;
+    height: 300px;
+}
